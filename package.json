@@ -1,0 +1,23 @@
+{
+  "name": "heroku_review2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6democratickim9/heroku_review2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/6democratickim9/heroku_review2/issues"
+  },
+  "homepage": "https://github.com/6democratickim9/heroku_review2#readme"
+}
