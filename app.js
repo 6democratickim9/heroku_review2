@@ -9,7 +9,7 @@ app.get('/welcome',(req,res) =>  {
 });
 app.get('/service',(req,res) =>  {
     var on = req.param('status')
-    res.send('Response message: The system is running [Status:' + on.toUpperCase + ']');
+    res.send('Response message: The system is running [Status:ON]');
 });
 app.get('/check',(req,res) =>  res.send("NOMNOMNOMONOMONOMNOMONONO"));
 app.listen(port,() => console.log('Example app listening on port 3000'))
