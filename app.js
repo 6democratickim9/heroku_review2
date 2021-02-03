@@ -8,7 +8,7 @@ app.get('/',(req,res) => res.send('WELCOME!'));
 //     res.send('LUULUULUULLUULUUL[' + user_name + ']');
 // });
 app.get('/service',(req,res) =>  {
-    var on = req.param('status')
+    var status = req.param('on')
     res.send('Response message: The system is running [Status:ON]');
 });
 app.get('/check',(req,res) =>  res.send("NOMNOMNOMONOMONOMNOMONONO"));
