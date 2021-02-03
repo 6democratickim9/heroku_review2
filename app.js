@@ -7,5 +7,9 @@ app.get('/welcome',(req,res) =>  {
     var user_name = req.param('name')
     res.send('LUULUULUULLUULUUL[' + user_name + ']');
 });
+app.get('/service',(req,res) =>  {
+    var on = req.param('status')
+    res.send('Response message: The system is running [Status:' + on.toUpperCase + ']');
+});
 app.get('/check',(req,res) =>  res.send("NOMNOMNOMONOMONOMNOMONONO"));
 app.listen(port,() => console.log('Example app listening on port 3000'))
